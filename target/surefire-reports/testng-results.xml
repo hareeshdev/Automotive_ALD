@@ -2,16 +2,16 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-05T04:29:52Z" name="Surefire suite" finished-at="2021-11-05T04:29:53Z" duration-ms="1006">
+  <suite started-at="2021-11-05T05:18:42Z" name="Surefire suite" finished-at="2021-11-05T05:18:43Z" duration-ms="1207">
     <groups>
     </groups>
-    <test started-at="2021-11-05T04:29:52Z" name="Surefire test" finished-at="2021-11-05T04:29:53Z" duration-ms="1006">
+    <test started-at="2021-11-05T05:18:42Z" name="Surefire test" finished-at="2021-11-05T05:18:43Z" duration-ms="1207">
       <class name="com.rest.api.tests.GetApiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rest.api.tests.GetApiTest@6dc17b83]" started-at="2021-11-05T09:59:52Z" name="setUp" finished-at="2021-11-05T09:59:52Z" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rest.api.tests.GetApiTest@6dc17b83]" started-at="2021-11-05T10:48:42Z" name="setUp" finished-at="2021-11-05T10:48:42Z" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getTest()[pri:0, instance:com.rest.api.tests.GetApiTest@6dc17b83]" started-at="2021-11-05T09:59:52Z" name="getTest" finished-at="2021-11-05T09:59:53Z" duration-ms="970" status="PASS">
+        <test-method signature="getTest()[pri:0, instance:com.rest.api.tests.GetApiTest@6dc17b83]" started-at="2021-11-05T10:48:42Z" name="getTest" finished-at="2021-11-05T10:48:43Z" duration-ms="1169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTest -->
