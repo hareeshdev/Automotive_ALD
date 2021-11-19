@@ -17,13 +17,14 @@ pipeline {
    
         stage('Deploy The Application') {
             steps {
-                echoo 'Deploy The Application in the World'
+                echo 'Deploy The Application in the World'
             }
         }
-      post {
+    }
+    post{
+        
         always {
-            emailext body: 'Dummy body pipeline status need to got the email notification', subject: 'Pipeline status', to: 'hareeshc.2017@gmail.com'
+            emailext body: 'Dummy body pipeline status need to got the email notification', subject: 'Pipeline status', to: 'hareesh.c021@gmail.com'
         }
-    } 
-}
-    
+    }
+ }
